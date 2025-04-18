@@ -1,6 +1,6 @@
 <?php
 
-namespace Jrfs22\LaravelPostModule\Http\Controllers;
+namespace Jrfs22\LaravelPostmodule\Http\Controllers;
 
 use App\Models\PostModel;
 use Illuminate\Http\Request;
