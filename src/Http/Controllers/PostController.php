@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Mrjrfs\PostModule\Http\Controllers;
 
 use App\Models\PostModel;
 use Illuminate\Http\Request;

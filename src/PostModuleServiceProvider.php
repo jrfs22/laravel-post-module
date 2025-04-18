@@ -1,6 +1,6 @@
 <?php 
 
-namespace mrjrfs\PostModule;
+namespace Mrjrfs\PostModule\PostModuleServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
 
