@@ -21,13 +21,16 @@
 	},
 	"repositories": {
 		"type": "vcs",
-		"url" : "https://github.com/jrfs22/laravel-post-module.git"
+		"url": "https://github.com/jrfs22/laravel-post-module.git"
 	},
 	"extra": {
-		"laravel" : {
-			"providers" : [
+		"laravel": {
+			"providers": [
 				"Jrfs22\\LaravelPostModule\\PostModuleServiceProvider"
-			]
+			],
+			"aliases": {
+				"LaravelPostModule": "Jrfs22\\LaravelPostModule\\Facades\\LaravelPostModule"
+			}
 		}
 	}
 }

@@ -4,6 +4,7 @@ namespace Jrfs22\LaravelPostModule\Http\Controllers;
 
 use App\Models\PostModel;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class PostController extends Controller
 {
