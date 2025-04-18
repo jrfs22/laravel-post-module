@@ -22,5 +22,12 @@
 	"repositories": {
 		"type": "vcs",
 		"url" : "https://github.com/jrfs22/laravel-post-module.git"
+	},
+	"extra": {
+		"laravel" : {
+			"providers" : [
+				"Jrfs22\\PostModule\\PostModuleServiceProvider"
+			]
+		}
 	}
 }
