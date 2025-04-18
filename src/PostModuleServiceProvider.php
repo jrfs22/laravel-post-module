@@ -1,6 +1,6 @@
 <?php 
 
-namespace Jrfs22\LaravelPostModule\PostModuleServiceProvider;
+namespace Jrfs22\LaravelPostModule;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -10,5 +10,6 @@ class PostModuleServiceProvider extends ServiceProvider
   {
     $this->loadRoutesFrom(__DIR__."routes/web.php");
     $this->loadViewsFrom(__DIR__."../resources/views","PostModule");
+    $this->loadMigrationsFrom(__DIR__."../database/migrations");
   }
 }
