@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"autoload": {
 		"psr-4": {
-			"Jrfs22\\LaravelPostmodule\\": "src/"
+			"Jrfs22\\LaravelPostModule\\": "src/"
 		}
 	},
 	"authors": [
@@ -26,7 +26,7 @@
 	"extra": {
 		"laravel" : {
 			"providers" : [
-				"Jrfs22\\LaravelPostmodule\\PostModuleServiceProvider"
+				"Jrfs22\\LaravelPostModule\\PostModuleServiceProvider"
 			]
 		}
 	}
