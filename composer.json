@@ -1,0 +1,25 @@
+{
+	"name": "mrjrfs/post-module",
+	"description": "Post Module",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"mrjrfs\\PostModule\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"mrjrfs\\PostModule\\PostModuleServiceProvider"
+			]
+		}
+	},
+	"require": {
+		"php": ">=8.2",
+    "laravel/framework": "^12.0"
+	},
+	"repositories": {
+		"type": "vcs",
+		"url" : "https://github.com/jrfs22/laravel-post-module.git"
+	}
+}
