@@ -1,6 +1,6 @@
 <?php
 
-namespace Mrjrfs\PostModule\Models;
+namespace Jrfs22\LaravelPostModule\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

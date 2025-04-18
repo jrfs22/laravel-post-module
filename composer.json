@@ -1,11 +1,11 @@
 {
-	"name": "mrjrfs/postmodule",
+	"name": "jrfs22/laravel-post-module",
 	"description": "Test Je",
 	"type": "library",
 	"license": "MIT",
 	"autoload": {
 		"psr-4": {
-			"Mrjrfs\\Postmodule\\": "src/"
+			"Jrfs22\\Postmodule\\": "src/"
 		}
 	},
 	"authors": [

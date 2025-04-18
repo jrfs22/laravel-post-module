@@ -1,6 +1,6 @@
 <?php 
 
-namespace Mrjrfs\PostModule\PostModuleServiceProvider;
+namespace Jrfs22\LaravelPostModule\PostModuleServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
 
